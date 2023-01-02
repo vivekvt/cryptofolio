@@ -71,13 +71,6 @@ export default function Portfolio() {
                     <AddCircle />
                   </IconButton>
                 </Tooltip>
-                <Button
-                  onClick={() =>
-                    handlePortfolioChange({ positions: {}, isPublic: false })
-                  }
-                >
-                  Clear
-                </Button>
               </Typography>
               <Tooltip title="Share your portfolio">
                 <IconButton edge="end">
